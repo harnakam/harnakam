@@ -27,18 +27,30 @@
 
 ## Projects
 
-| | |
-| :--- | :--- |
-| **[POW ↗](https://github.com/harnakam/POW)**<br />Codex · Agent Skills | **[Common Core Grader ↗](https://github.com/harnakam/common-core-grader)**<br />Go · Systems tooling |
-| **[42 Norm Formatter ↗](https://marketplace.visualstudio.com/items?itemName=harnakam.42-norm-formatter)**<br />C / Python · VS Code | **[Grader ↗](https://marketplace.visualstudio.com/items?itemName=harnakam.grader)**<br />Code review · VS Code |
-| **[Pastel Color Theme ↗](https://github.com/harnakam/pastel-color-theme)**<br />18 themes · Light & dark | **[harnakam.com ↗](https://harnakam.com)**<br />Graphics · Interactive web |
+<table width="100%">
+<tr>
+<td width="50%"><h3><a href="https://github.com/harnakam/POW">POW ↗</a></h3><p>Codex · Agent Skills</p></td>
+<td width="50%"><h3><a href="https://github.com/harnakam/common-core-grader">Common Core Grader ↗</a></h3><p>Go · Systems tooling</p></td>
+</tr>
+<tr>
+<td><h3><a href="https://marketplace.visualstudio.com/items?itemName=harnakam.42-norm-formatter">42 Norm Formatter ↗</a></h3><p>C / Python · VS Code</p></td>
+<td><h3><a href="https://marketplace.visualstudio.com/items?itemName=harnakam.grader">Grader ↗</a></h3><p>Code review · VS Code</p></td>
+</tr>
+<tr>
+<td><h3><a href="https://github.com/harnakam/pastel-color-theme">Pastel Color Theme ↗</a></h3><p>18 themes · Light &amp; dark</p></td>
+<td><h3><a href="https://harnakam.com">harnakam.com ↗</a></h3><p>Graphics · Interactive web</p></td>
+</tr>
+</table>
 
 <br />
 
 ## Activity
 
 <a href="https://github.com/harnakam?tab=overview">
-  <img src="./assets/activity.svg" width="100%" alt="GitHub contributions, active days, public repositories, and language distribution; updated daily" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/activity-mobile.svg" />
+    <img src="./assets/activity.svg" width="100%" alt="GitHub contributions, active days, public repositories, and language distribution; updated daily" />
+  </picture>
 </a>
 
 <br />

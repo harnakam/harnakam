@@ -75,3 +75,22 @@ else:
 svg.append('</svg>')
 (ROOT/'assets/activity.svg').write_text('\n'.join(svg)+'\n',encoding='utf-8')
 print(f'Generated activity: {len(days)} days, {len(repos)} repositories, {len(languages)} languages')
+# A separate compact composition keeps labels readable on narrow profiles.
+svg = ['<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700" role="img" aria-labelledby="title">', '<title id="title">GitHub activity: recent 16 weeks and public languages</title>', '<rect width="600" height="700" rx="12" fill="#0d1117"/>', '<style>text{font-family:Segoe UI,Arial,sans-serif;fill:#e6edf3}.label{font-size:22px;fill:#a5aebc}.value{font-size:42px;font-weight:600}</style>']
+text(30,48,'Activity',extra='font-size="28" font-weight="600"')
+for x,y,value,label in [(30,109,calendar['totalContributions'],'Contributions'),(320,109,active,'Active days'),(30,199,peak,'Best day'),(320,199,len(repos),'Public repos')]:
+    text(x,y,f'{value:,}','value'); text(x,y+29,label,'label')
+text(30,279,'Recent 16 weeks','label')
+for col,week in enumerate(weeks[-16:]):
+    for day in week['contributionDays']:
+        row=(datetime.date.fromisoformat(day['date']).weekday()+1)%7
+        count=day['contributionCount']
+        level=0 if count==0 else min(4,1+(count>3)+(count>9)+(count>20))
+        svg.append(f'<rect x="{30+col*34}" y="{302+row*25}" width="27" height="18" rx="3" fill="{palette[level]}"/>')
+text(30,525,'Languages',extra='font-size="28" font-weight="600"')
+for i,(name,size) in enumerate(top):
+    x=30+(i%2)*285; y=573+(i//2)*43
+    svg.append(f'<circle cx="{x+6}" cy="{y-7}" r="6" fill="{colors[name]}"/>')
+    text(x+24,y,f'{name} {size/total:.1%}','label')
+svg.append('</svg>')
+(ROOT/'assets/activity-mobile.svg').write_text('\n'.join(svg)+'\n',encoding='utf-8')
