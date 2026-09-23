@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">harnakam · Developer</title>
+  <desc id="desc">Amber orbits and points of light.</desc>
+  <defs>
+    <radialGradient id="halo">
+      <stop stop-color="#D99954" stop-opacity=".16" />
+      <stop offset="1" stop-color="#D99954" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="ring" x1="-245" y1="-80" x2="245" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEC69B" stop-opacity=".08" />
+      <stop offset=".48" stop-color="#EEC69B" stop-opacity=".65" />
+      <stop offset="1" stop-color="#EEC69B" stop-opacity=".08" />
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1200" height="500" rx="12" />
+    </clipPath>
+  </defs>
+  <style>.still { display: inline; }</style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="500" fill="#101114" />
+    <ellipse cx="902" cy="250" rx="380" ry="340" fill="url(#halo)" />
+    <g fill="#CBBBAD" opacity=".65">
+      <circle cx="91" cy="100" r="1" />
+      <circle cx="549" cy="77" r="1" />
+      <circle cx="681" cy="411" r="1" />
+      <circle cx="1101" cy="93" r="1.2" />
+      <circle cx="1139" cy="392" r="1" />
+      <circle cx="417" cy="402" r=".8" />
+      <circle cx="702" cy="106" r=".8" />
+      <circle cx="1063" cy="451" r=".8" />
+    </g>
+    <g transform="translate(902 250) rotate(-28)">
+      <g stroke="url(#ring)" stroke-width="1">
+        <ellipse rx="247" ry="88" />
+        <ellipse rx="234" ry="126" />
+        <ellipse rx="212" ry="167" />
+        <ellipse rx="179" ry="204" />
+        <ellipse rx="131" ry="232" />
+        <ellipse rx="69" ry="247" />
+      </g>
+      <g class="still" fill="#FFE0B4">
+        <circle cx="247" r="3.5" />
+        <circle cx="-179" r="2.5" />
+        <circle cy="-247" r="2" />
+      </g>
+    </g>
+    <text x="66" y="245" fill="#F3EEE7" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="600" letter-spacing="-4">harnakam</text>
+    <text x="71" y="292" fill="#CEB89E" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="1">Developer</text>
+    <path d="M72 429H1128" stroke="#F3EEE7" stroke-opacity=".12" />
+    <text x="72" y="460" fill="#ACA69D" font-family="Consolas, monospace" font-size="11" letter-spacing="2">HARNAKAM.COM</text>
+    <path d="M1106 460 1118 448M1106 448H1118V460" stroke="#CEB89E" stroke-width="1.2" />
+  </g>
+</svg>
