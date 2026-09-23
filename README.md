@@ -1,48 +1,30 @@
-<p align="center">
-  <a href="https://harnakam.com">
-    <img src="./assets/horizon.svg" width="100%" alt="harnakam · Developer" />
-  </a>
-</p>
+<a href="https://harnakam.com">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-still.svg" />
+    <img src="./assets/identity.svg" width="100%" alt="harnakam · Developer" />
+  </picture>
+</a>
 
 <p align="center">
   <a href="https://harnakam.com">Website ↗</a>
-  &nbsp; · &nbsp;
+  &nbsp;&nbsp; · &nbsp;&nbsp;
   <a href="https://github.com/harnakam?tab=repositories">Code</a>
-  &nbsp; · &nbsp;
+  &nbsp;&nbsp; · &nbsp;&nbsp;
   <a href="https://marketplace.visualstudio.com/publishers/harnakam">Extensions</a>
 </p>
 
-<br />
-
-<p align="center">
-  <sub>EXPLORE</sub><br /><br />
-  <a href="https://harnakam.com/#horizon">◌ &nbsp; Horizon</a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://harnakam.com/#playground">⠿ &nbsp; Playground</a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://harnakam.com/#light">✧ &nbsp; Light</a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://harnakam.com/#deep">↗ &nbsp; Space</a>
-</p>
-
-<br />
-
 <details>
-<summary>Projects</summary>
+<summary>Explore</summary>
 
-<br />
-
-[POW](https://github.com/harnakam/POW) · [Common Core Grader](https://github.com/harnakam/common-core-grader) · [Pastel Color Theme](https://github.com/harnakam/pastel-color-theme)
-
-[42 Norm Formatter](https://marketplace.visualstudio.com/items?itemName=harnakam.42-norm-formatter) · [Grader](https://marketplace.visualstudio.com/items?itemName=harnakam.grader)
+[Horizon](https://harnakam.com/#horizon) · [Playground](https://harnakam.com/#playground) · [Light](https://harnakam.com/#light) · [Space](https://harnakam.com/#deep)
 
 </details>
 
 <details>
-<summary>Still</summary>
+<summary>Projects</summary>
 
-<br />
+[POW](https://github.com/harnakam/POW) · [Common Core Grader](https://github.com/harnakam/common-core-grader) · [Pastel Color Theme](https://github.com/harnakam/pastel-color-theme)
 
-![harnakam · Developer, static artwork](./assets/horizon-still.svg)
+[42 Norm Formatter](https://marketplace.visualstudio.com/items?itemName=harnakam.42-norm-formatter) · [Grader](https://marketplace.visualstudio.com/items?itemName=harnakam.grader)
 
 </details>

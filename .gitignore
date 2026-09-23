@@ -1,2 +1,5 @@
 .serena/
 .preview/
+
+.playwright-cli/
+output/
