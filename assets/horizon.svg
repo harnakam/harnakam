@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">harnakam — Code. Curiosity. Possibility.</title>
+  <desc id="desc">An amber orbital field on a dark background. Systems, graphics, and tools for what comes next.</desc>
+  <defs>
+    <radialGradient id="glow">
+      <stop stop-color="#E6A55D" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#E6A55D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="698" y1="110" x2="1153" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EFC08C" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#EFC08C" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#EFC08C" stop-opacity=".15"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="440" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="440" fill="#101114"/>
+    <ellipse cx="957" cy="223" rx="333" ry="296" fill="url(#glow)"/>
+    <g stroke="url(#orbit)" stroke-width="1">
+      <ellipse cx="959" cy="221" rx="233" ry="79" transform="rotate(-32 959 221)"/>
+      <ellipse cx="959" cy="221" rx="225" ry="113" transform="rotate(-32 959 221)"/>
+      <ellipse cx="959" cy="221" rx="212" ry="149" transform="rotate(-32 959 221)"/>
+      <ellipse cx="959" cy="221" rx="190" ry="181" transform="rotate(-32 959 221)"/>
+      <ellipse cx="959" cy="221" rx="158" ry="206" transform="rotate(-32 959 221)"/>
+      <ellipse cx="959" cy="221" rx="116" ry="223" transform="rotate(-32 959 221)"/>
+      <ellipse cx="959" cy="221" rx="62" ry="232" transform="rotate(-32 959 221)"/>
+      <path d="M806 327 1112 115"/>
+    </g>
+    <g fill="#EFC08C">
+      <circle cx="775" cy="156" r="3"/>
+      <circle cx="1111" cy="115" r="4"/>
+      <circle cx="940" cy="357" r="2.5"/>
+      <circle cx="699" cy="86" r="1.4"/>
+      <circle cx="1142" cy="352" r="1.4"/>
+      <circle cx="677" cy="308" r="1"/>
+    </g>
+    <path d="M56 57H74M65 48V66" stroke="#EFC08C"/>
+    <text x="91" y="62" fill="#C9C3BA" font-family="Consolas, monospace" font-size="13" letter-spacing="3">DEVELOPER / STUDENT</text>
+    <text x="54" y="197" fill="#F5F0E8" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" letter-spacing="-5">harnakam</text>
+    <text x="59" y="250" fill="#EFC08C" font-family="Arial, Helvetica, sans-serif" font-size="27">Code. Curiosity. Possibility.</text>
+    <text x="59" y="294" fill="#C9C3BA" font-family="Arial, Helvetica, sans-serif" font-size="18">Systems, graphics, and tools for what comes next.</text>
+    <path d="M59 371H1141" stroke="#F5F0E8" stroke-opacity=".16"/>
+    <text x="59" y="404" fill="#C9C3BA" font-family="Consolas, monospace" font-size="12" letter-spacing="2">FOLLOW THE HORIZON.</text>
+    <text x="975" y="404" fill="#EFC08C" font-family="Consolas, monospace" font-size="12" letter-spacing="1">HARNAKAM.COM</text>
+  </g>
+</svg>
