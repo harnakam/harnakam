@@ -3,11 +3,11 @@
 <rect width="600" height="700" rx="12" fill="#0d1117"/>
 <style>text{font-family:Segoe UI,Arial,sans-serif;fill:#e6edf3}.label{font-size:22px;fill:#a5aebc}.value{font-size:42px;font-weight:600}</style>
 <text x="30" y="48" class="" font-size="28" font-weight="600">Activity</text>
-<text x="30" y="109" class="value" >24</text>
+<text x="30" y="109" class="value" >25</text>
 <text x="30" y="138" class="label" >Contributions</text>
 <text x="320" y="109" class="value" >8</text>
 <text x="320" y="138" class="label" >Active days</text>
-<text x="30" y="199" class="value" >5</text>
+<text x="30" y="199" class="value" >6</text>
 <text x="30" y="228" class="label" >Best day</text>
 <text x="320" y="199" class="value" >6</text>
 <text x="320" y="228" class="label" >Public repos</text>
@@ -121,6 +121,7 @@
 <rect x="540" y="327" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="540" y="352" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="540" y="377" width="27" height="18" rx="3" fill="#53755e"/>
+<rect x="540" y="402" width="27" height="18" rx="3" fill="#202832"/>
 <text x="30" y="525" class="" font-size="28" font-weight="600">Languages</text>
 <circle cx="36" cy="566" r="6" fill="#555555"/>
 <text x="54" y="573" class="label" >C 56.2%</text>
