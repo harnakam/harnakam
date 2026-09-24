@@ -3,37 +3,31 @@
   <desc id="desc">A soft ribbon of light moves slowly behind the name.</desc>
   <defs>
     <radialGradient id="ambient">
-      <stop stop-color="#b58e63" stop-opacity=".2"/>
-      <stop offset="1" stop-color="#b58e63" stop-opacity="0"/>
+      <stop stop-color="#b58e63" stop-opacity=".2" />
+      <stop offset="1" stop-color="#b58e63" stop-opacity="0" />
     </radialGradient>
     <linearGradient id="ribbon" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#e3c9a4" stop-opacity="0"/>
-      <stop offset=".48" stop-color="#d4b58d" stop-opacity=".05"/>
-      <stop offset=".85" stop-color="#ead7bc" stop-opacity=".4"/>
-      <stop offset="1" stop-color="#ead7bc" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="edge">
-      <stop stop-color="#ede2d1" stop-opacity="0"/>
-      <stop offset=".6" stop-color="#ede2d1" stop-opacity=".6"/>
-      <stop offset="1" stop-color="#ede2d1" stop-opacity="0"/>
+      <stop stop-color="#e3c9a4" stop-opacity="0" />
+      <stop offset=".48" stop-color="#d4b58d" stop-opacity=".05" />
+      <stop offset=".85" stop-color="#ead7bc" stop-opacity=".4" />
+      <stop offset="1" stop-color="#ead7bc" stop-opacity="0" />
     </linearGradient>
     <linearGradient id="shade">
-      <stop stop-color="#0b0d10"/>
-      <stop offset=".56" stop-color="#0b0d10" stop-opacity=".8"/>
-      <stop offset="1" stop-color="#0b0d10" stop-opacity="0"/>
+      <stop stop-color="#0b0d10" />
+      <stop offset=".56" stop-color="#0b0d10" stop-opacity=".8" />
+      <stop offset="1" stop-color="#0b0d10" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="340" x2="760"><stop stop-color="black"/><stop offset="1" stop-color="white"/></linearGradient>
-    <mask id="ribbonFade"><rect width="1800" height="500" fill="url(#fade)"/></mask>
-    <clipPath id="bounds"><rect width="1200" height="360"/></clipPath>
-  </defs>
+    <linearGradient id="fade" gradientUnits="userSpaceOnUse" x1="340" x2="760"><stop stop-color="black" /><stop offset="1" stop-color="white" /></linearGradient>
+    <mask id="ribbonFade"><rect width="1800" height="500" fill="url(#fade)" /></mask>
+    <clipPath id="bounds"><rect width="1200" height="360" /></clipPath>
+  <filter id="softLight" filterUnits="userSpaceOnUse" x="100" y="-200" width="1700" height="850" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="14" /></filter></defs>
   <g clip-path="url(#bounds)">
-    <rect width="1200" height="360" fill="#0b0d10"/>
+    <rect width="1200" height="360" fill="#0b0d10" />
     <g>
-      <ellipse cx="1010" cy="156" rx="620" ry="210" fill="url(#ambient)"/>
-      <path mask="url(#ribbonFade)" d="M340 310C650 340 760 32 1060 72S1370 250 1510 170L1510 220C1330 316 1220 146 1040 152S680 418 340 360Z" fill="url(#ribbon)"/>
-      <path mask="url(#ribbonFade)" d="M340 360C680 418 850 158 1040 152S1330 316 1510 220" stroke="url(#edge)" stroke-width="1" fill="none"/>
-    </g>
-    <rect width="900" height="360" fill="url(#shade)"/>
+      <ellipse cx="1010" cy="156" rx="620" ry="210" fill="url(#ambient)" />
+      <path mask="url(#ribbonFade)" d="M340 310C650 340 760 32 1060 72S1370 250 1510 170L1510 220C1330 316 1220 146 1040 152S680 418 340 360Z" fill="url(#ribbon)" filter="url(#softLight)" />
+      </g>
+    <rect width="900" height="360" fill="url(#shade)" />
     <text x="70" y="198" fill="#f2f0eb" font-family="Arial,Helvetica,sans-serif" font-size="104" font-weight="500" letter-spacing="-5">harnakam</text>
     <text x="76" y="246" fill="#bcbcb9" font-family="Arial,Helvetica,sans-serif" font-size="25">Developer</text>
   </g>
