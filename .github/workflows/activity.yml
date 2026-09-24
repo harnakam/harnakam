@@ -4,15 +4,43 @@ on:
     - cron: '17 3 * * *'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: profile-activity
   cancel-in-progress: false
 jobs:
-  update:
+  snake:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Generate contribution snake with read-only access
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: harnakam
+          outputs: |
+            snake/snake.svg?color_snake=%23947951
+            snake/snake-dark.svg?palette=github-dark&color_snake=%23efc58e
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: snake-artwork
+          path: snake/*.svg
+          retention-days: 1
+  update:
+    needs: snake
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: snake-artwork
+          path: output/snake
+      - name: Validate generated SVGs
+        run: python3 scripts/validate_snake.py
       - name: Generate activity artwork
         env:
           GH_TOKEN: ${{ github.token }}
@@ -21,7 +49,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/activity.svg assets/activity-mobile.svg
+          git add assets/activity.svg assets/activity-mobile.svg assets/snake.svg assets/snake-dark.svg
           if ! git diff --cached --quiet; then
             git commit -m 'Update profile activity'
             git push
