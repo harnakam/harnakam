@@ -1,7 +1,7 @@
 <a href="https://harnakam.com">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/identity-still.svg" />
-    <img src="./assets/identity.svg" width="100%" alt="harnakam · Developer" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/aurora-still.svg" />
+    <img src="./assets/aurora.svg" width="100%" alt="harnakam · Developer" />
   </picture>
 </a>
 
@@ -54,6 +54,15 @@
 </a>
 
 <br />
+
+<br />
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/activity-mobile.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/activity.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg" />
+  <img src="./assets/snake.svg" width="100%" alt="Snake animation generated from harnakam's GitHub contributions" />
+</picture>
 
 ## Playground
 

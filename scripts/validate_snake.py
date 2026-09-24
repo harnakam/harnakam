@@ -10,6 +10,7 @@ for name in ('snake.svg','snake-dark.svg'):
     if source.is_symlink() or source.stat().st_size > 2_000_000:
         raise ValueError('Unexpected artifact file')
     data = source.read_text(encoding='utf-8')
+    data = data.replace('<desc>Generated with https://github.com/Platane/snk</desc>', '<desc>Generated with Platane/snk</desc>')
     if re.search(r'<!DOCTYPE|<!ENTITY|@import|https?://(?!www\.w3\.org/2000/svg)', data, re.I):
         raise ValueError('External reference in SVG')
     tree = ET.fromstring(data)
