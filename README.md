@@ -1,7 +1,7 @@
 <a href="https://harnakam.com">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/light-still.svg" />
-    <img src="./assets/light.svg" width="100%" alt="harnakam · Developer" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/light-soft-still.svg" />
+    <img src="./assets/light-soft.svg" width="100%" alt="harnakam · Developer" />
   </picture>
 </a>
 
