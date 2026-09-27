@@ -12,8 +12,8 @@
 <text x="320" y="199" class="value" >6</text>
 <text x="320" y="228" class="label" >Public repos</text>
 <text x="30" y="279" class="label" >Recent 16 weeks</text>
-<rect x="30" y="302" width="27" height="18" rx="3" fill="#33443d"/>
-<rect x="30" y="327" width="27" height="18" rx="3" fill="#53755e"/>
+<rect x="30" y="302" width="27" height="18" rx="3" fill="#202832"/>
+<rect x="30" y="327" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="30" y="352" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="30" y="377" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="30" y="402" width="27" height="18" rx="3" fill="#202832"/>
@@ -92,19 +92,19 @@
 <rect x="404" y="302" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="404" y="327" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="404" y="352" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="404" y="377" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="404" y="402" width="27" height="18" rx="3" fill="#202832"/>
+<rect x="404" y="377" width="27" height="18" rx="3" fill="#33443d"/>
+<rect x="404" y="402" width="27" height="18" rx="3" fill="#33443d"/>
 <rect x="404" y="427" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="404" y="452" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="438" y="302" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="438" y="327" width="27" height="18" rx="3" fill="#202832"/>
+<rect x="438" y="327" width="27" height="18" rx="3" fill="#53755e"/>
 <rect x="438" y="352" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="438" y="377" width="27" height="18" rx="3" fill="#33443d"/>
-<rect x="438" y="402" width="27" height="18" rx="3" fill="#33443d"/>
+<rect x="438" y="377" width="27" height="18" rx="3" fill="#202832"/>
+<rect x="438" y="402" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="438" y="427" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="438" y="452" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="472" y="302" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="472" y="327" width="27" height="18" rx="3" fill="#53755e"/>
+<rect x="472" y="327" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="472" y="352" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="472" y="377" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="472" y="402" width="27" height="18" rx="3" fill="#202832"/>
@@ -113,17 +113,11 @@
 <rect x="506" y="302" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="506" y="327" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="506" y="352" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="506" y="377" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="506" y="402" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="506" y="427" width="27" height="18" rx="3" fill="#202832"/>
+<rect x="506" y="377" width="27" height="18" rx="3" fill="#53755e"/>
+<rect x="506" y="402" width="27" height="18" rx="3" fill="#53755e"/>
+<rect x="506" y="427" width="27" height="18" rx="3" fill="#33443d"/>
 <rect x="506" y="452" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="540" y="302" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="540" y="327" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="540" y="352" width="27" height="18" rx="3" fill="#202832"/>
-<rect x="540" y="377" width="27" height="18" rx="3" fill="#53755e"/>
-<rect x="540" y="402" width="27" height="18" rx="3" fill="#53755e"/>
-<rect x="540" y="427" width="27" height="18" rx="3" fill="#33443d"/>
-<rect x="540" y="452" width="27" height="18" rx="3" fill="#202832"/>
 <text x="30" y="525" class="" font-size="28" font-weight="600">Languages</text>
 <circle cx="36" cy="566" r="6" fill="#555555"/>
 <text x="54" y="573" class="label" >C 56.0%</text>
