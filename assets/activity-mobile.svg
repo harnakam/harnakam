@@ -119,6 +119,7 @@
 <rect x="506" y="452" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="540" y="302" width="27" height="18" rx="3" fill="#202832"/>
 <rect x="540" y="327" width="27" height="18" rx="3" fill="#202832"/>
+<rect x="540" y="352" width="27" height="18" rx="3" fill="#202832"/>
 <text x="30" y="525" class="" font-size="28" font-weight="600">Languages</text>
 <circle cx="36" cy="566" r="6" fill="#555555"/>
 <text x="54" y="573" class="label" >C 56.0%</text>
