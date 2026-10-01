@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
 <title id="title">GitHub activity and languages</title>
-<desc id="desc">32 contributions, 10 active days. Languages measured by bytes in public original repositories, excluding this profile.</desc>
+<desc id="desc">126 contributions, 12 active days. Languages measured by bytes in public original repositories, excluding this profile.</desc>
 <rect width="1200" height="520" rx="12" fill="#0d1117"/>
 <style>text{font-family:Segoe UI,Arial,sans-serif;fill:#e6edf3}.label{font-size:15px;fill:#a5aebc}.value{font-size:38px;font-weight:600}</style>
 <text x="40" y="43" class="" font-size="21" font-weight="600">Activity</text>
-<text x="1160" y="43" class="label" text-anchor="end">2025-09-28 — 2026-09-30</text>
-<text x="40" y="104" class="value" >32</text>
+<text x="1160" y="43" class="label" text-anchor="end">2025-09-28 — 2026-10-01</text>
+<text x="40" y="104" class="value" >126</text>
 <text x="40" y="132" class="label" >Contributions</text>
-<text x="330" y="104" class="value" >10</text>
+<text x="330" y="104" class="value" >12</text>
 <text x="330" y="132" class="label" >Active days</text>
-<text x="620" y="104" class="value" >6</text>
+<text x="620" y="104" class="value" >91</text>
 <text x="620" y="132" class="label" >Best day</text>
-<text x="910" y="104" class="value" >6</text>
+<text x="910" y="104" class="value" >8</text>
 <text x="910" y="132" class="label" >Public repositories</text>
 <rect x="40" y="162" width="16" height="16" rx="3" fill="#202832"><title>2025-09-28: 0 contributions</title></rect>
 <rect x="40" y="183" width="16" height="16" rx="3" fill="#202832"><title>2025-09-29: 0 contributions</title></rect>
@@ -380,7 +380,8 @@
 <rect x="1132" y="162" width="16" height="16" rx="3" fill="#202832"><title>2026-09-27: 0 contributions</title></rect>
 <rect x="1132" y="183" width="16" height="16" rx="3" fill="#202832"><title>2026-09-28: 0 contributions</title></rect>
 <rect x="1132" y="204" width="16" height="16" rx="3" fill="#202832"><title>2026-09-29: 0 contributions</title></rect>
-<rect x="1132" y="225" width="16" height="16" rx="3" fill="#202832"><title>2026-09-30: 0 contributions</title></rect>
+<rect x="1132" y="225" width="16" height="16" rx="3" fill="#33443d"><title>2026-09-30: 3 contributions</title></rect>
+<rect x="1132" y="246" width="16" height="16" rx="3" fill="#d0e5b9"><title>2026-10-01: 91 contributions</title></rect>
 <text x="40" y="335" class="label" >Less</text>
 <rect x="82" y="322" width="16" height="16" rx="3" fill="#202832"/>
 <rect x="103" y="322" width="16" height="16" rx="3" fill="#33443d"/>
@@ -391,22 +392,22 @@
 <path d="M40 365H1160" stroke="#28313d"/>
 <text x="40" y="401" class="" font-size="21" font-weight="600">Languages</text>
 <text x="1160" y="401" class="label" text-anchor="end">Public source · by size</text>
-<rect x="40.00" y="422" width="626.75" height="12" fill="#555555"/>
-<rect x="666.75" y="422" width="171.91" height="12" fill="#f34b7d"/>
-<rect x="838.66" y="422" width="100.88" height="12" fill="#3572A5"/>
-<rect x="939.54" y="422" width="92.08" height="12" fill="#427819"/>
-<rect x="1031.62" y="422" width="82.06" height="12" fill="#00ADD8"/>
-<rect x="1113.68" y="422" width="46.32" height="12" fill="#727e90"/>
+<rect x="40.00" y="422" width="613.12" height="12" fill="#555555"/>
+<rect x="653.12" y="422" width="267.62" height="12" fill="#dea584"/>
+<rect x="920.74" y="422" width="71.86" height="12" fill="#3572A5"/>
+<rect x="992.59" y="422" width="67.63" height="12" fill="#f34b7d"/>
+<rect x="1060.23" y="422" width="36.22" height="12" fill="#427819"/>
+<rect x="1096.45" y="422" width="63.55" height="12" fill="#727e90"/>
 <circle cx="45" cy="460" r="5" fill="#555555"/>
-<text x="60" y="465" class="label" >C  56.0%</text>
-<circle cx="420" cy="460" r="5" fill="#f34b7d"/>
-<text x="435" y="465" class="label" >C++  15.3%</text>
+<text x="60" y="465" class="label" >C  54.7%</text>
+<circle cx="420" cy="460" r="5" fill="#dea584"/>
+<text x="435" y="465" class="label" >Rust  23.9%</text>
 <circle cx="795" cy="460" r="5" fill="#3572A5"/>
-<text x="810" y="465" class="label" >Python  9.0%</text>
-<circle cx="45" cy="490" r="5" fill="#427819"/>
-<text x="60" y="495" class="label" >Makefile  8.2%</text>
-<circle cx="420" cy="490" r="5" fill="#00ADD8"/>
-<text x="435" y="495" class="label" >Go  7.3%</text>
+<text x="810" y="465" class="label" >Python  6.4%</text>
+<circle cx="45" cy="490" r="5" fill="#f34b7d"/>
+<text x="60" y="495" class="label" >C++  6.0%</text>
+<circle cx="420" cy="490" r="5" fill="#427819"/>
+<text x="435" y="495" class="label" >Makefile  3.2%</text>
 <circle cx="795" cy="490" r="5" fill="#727e90"/>
-<text x="810" y="495" class="label" >Other  4.1%</text>
+<text x="810" y="495" class="label" >Other  5.7%</text>
 </svg>
