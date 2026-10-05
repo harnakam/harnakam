@@ -4,7 +4,7 @@
 <rect width="1200" height="520" rx="12" fill="#0d1117"/>
 <style>text{font-family:Segoe UI,Arial,sans-serif;fill:#e6edf3}.label{font-size:15px;fill:#a5aebc}.value{font-size:38px;font-weight:600}</style>
 <text x="40" y="43" class="" font-size="21" font-weight="600">Activity</text>
-<text x="1160" y="43" class="label" text-anchor="end">2025-10-05 — 2026-10-04</text>
+<text x="1160" y="43" class="label" text-anchor="end">2025-10-05 — 2026-10-05</text>
 <text x="40" y="104" class="value" >146</text>
 <text x="40" y="132" class="label" >Contributions</text>
 <text x="330" y="104" class="value" >15</text>
@@ -378,6 +378,7 @@
 <rect x="1111" y="267" width="16" height="16" rx="3" fill="#8caf85"><title>2026-10-02: 13 contributions</title></rect>
 <rect x="1111" y="288" width="16" height="16" rx="3" fill="#33443d"><title>2026-10-03: 1 contributions</title></rect>
 <rect x="1132" y="162" width="16" height="16" rx="3" fill="#202832"><title>2026-10-04: 0 contributions</title></rect>
+<rect x="1132" y="183" width="16" height="16" rx="3" fill="#202832"><title>2026-10-05: 0 contributions</title></rect>
 <text x="40" y="335" class="label" >Less</text>
 <rect x="82" y="322" width="16" height="16" rx="3" fill="#202832"/>
 <rect x="103" y="322" width="16" height="16" rx="3" fill="#33443d"/>
